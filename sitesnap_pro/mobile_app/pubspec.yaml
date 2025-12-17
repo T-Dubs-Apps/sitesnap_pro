@@ -1,0 +1,25 @@
+name: sitesnap_pro
+description: A legal, high-margin AI estimator for contractors.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Core Packages
+  image_picker: ^1.0.4       # Access Camera/Gallery
+  http: ^1.1.0               # Talk to Backend
+  path_provider: ^2.1.1      # File system access
+  permission_handler: ^11.0.0 # Handle permissions legally
+  intl: ^0.19.0              # Format currency ($)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

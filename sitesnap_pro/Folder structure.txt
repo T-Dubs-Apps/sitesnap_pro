@@ -1,0 +1,12 @@
+sitesnap_pro/
+├── mobile_app/                  <-- (Flutter Code: Runs on iPhone/Android)
+│   ├── pubspec.yaml             <-- (Dependencies like Camera, Http)
+│   └── lib/
+│       ├── main.dart            <-- (The UI: Camera, Buttons, Display)
+│       └── services/
+│           └── api_service.dart <-- (Talks to your Backend securely)
+│
+└── backend_functions/           <-- (Firebase Cloud Functions: The "Brain")
+    ├── package.json             <-- (Dependencies like OpenAI SDK)
+    └── functions/
+        └── index.js             <-- (Server Logic: Hides API Keys, talks to GPT-4o)
